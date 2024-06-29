@@ -28,6 +28,7 @@
       type="text/css"
     />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -110,7 +111,7 @@
           class="showcase-contents flex flex-col lg:flex-row items-start sm:items-center gap-[110px] lg:gap-[100px] justify-between h-[100%] py-[50px] md:py-[100px]"
         >
           <!-- Showcase Left -->
-          <div class="showcase-left">
+          <div class="showcase-left" data-aos="fade-right">
             <p class="text-3xl font-semibold text-[#8a9767]">
               The Gemini India
             </p>
@@ -136,7 +137,11 @@
             ></a>
           </div>
           <!-- Showcase Right -->
-          <div class="showcase-right w-[90%]">
+          <div
+            class="showcase-right w-[90%]"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div class="relative py-3 w-[100%] md:w-[500px]">
               <div
                 class="absolute inset-0 bg-gradient-to-r from-[#8a9767] to-[#a6b384] shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"
@@ -221,7 +226,7 @@
         <div
           class="news-form px-[50px] py-[10px] md:py-[30px] flex sm:flex-row flex-col gap-4 items-center justify-between"
         >
-          <div>
+          <div data-aos="fade-up">
             <p
               class="lg:text-4xl text-[26px] w-[max-content] mb-3 text-[#8a9767] font-bold"
             >
@@ -231,7 +236,7 @@
               Our Process is Geared Towards Adding Value to Your Business..
             </p>
           </div>
-          <div class="subscribe-form-wrapper">
+          <div class="subscribe-form-wrapper" data-aos="fade-right">
             <form id="subscribeform" method="post" action="#">
               <fieldset>
                 <div class="subscribe-form-email">
@@ -260,6 +265,8 @@
     <section id="products">
       <div class="title-section pt-12 mb-10">
         <h3
+          data-aos="fade-up"
+          data-aos-duration="700"
           class="text-center text-3xl sm:text-4xl md:text-5xl mb-4 lg:text-6xl font-bold"
         >
           Features <span class="text-[#8a9767]">Products</span>
@@ -271,7 +278,7 @@
       </div>
       <div class="container">
         <div class="features-cards">
-          <div class="card">
+          <div class="card" data-aos-duration="700" data-aos="flip-up">
             <div class="feature-image">
               <img
                 src="https://www.thegemini.co.in/media/menu/01.jpg"
@@ -299,7 +306,7 @@
               </button>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos-duration="700" data-aos="flip-left">
             <div class="feature-image">
               <img
                 src="https://www.thegemini.co.in/media/menu/02.jpg"
@@ -327,7 +334,7 @@
               </button>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos-duration="700" data-aos="flip-right">
             <div class="feature-image">
               <img
                 src="https://www.thegemini.co.in/media/menu/03.jpg"
@@ -353,7 +360,7 @@
               </button>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos-duration="700" data-aos="flip-down">
             <div class="feature-image">
               <img
                 src="https://www.thegemini.co.in/media/menu/04.jpg"
@@ -379,7 +386,7 @@
               </button>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos-duration="700" data-aos="flip-up">
             <div class="feature-image">
               <img
                 src="https://www.thegemini.co.in/media/menu/05.jpg"
@@ -407,7 +414,7 @@
               </button>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos-duration="700" data-aos="flip-right">
             <div class="feature-image">
               <img
                 src="https://www.thegemini.co.in/media/menu/06.jpg"
@@ -435,7 +442,7 @@
               </button>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos-duration="700" data-aos="flip-left">
             <div class="feature-image">
               <img
                 src="https://www.thegemini.co.in/media/menu/07.jpg"
@@ -463,7 +470,7 @@
               </button>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos-duration="700" data-aos="flip-down">
             <div class="feature-image">
               <img
                 src="https://www.thegemini.co.in/media/menu/08.jpg"
@@ -500,7 +507,11 @@
       id="about-us"
       class="pb-[30px] pt-[10px] md:pb-[60px] md:pt-[40px]"
     >
-      <div class="title-section pt-12 lg:mb-10 mb-0">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="700"
+        class="title-section pt-12 lg:mb-10 mb-0"
+      >
         <h3
           class="text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4"
         >
@@ -518,7 +529,7 @@
         <div
           class="about-videos flex md:flex-row flex-col justify-center items-center gap-4 lg:gap-6 w-[100%] px-8"
         >
-          <div>
+          <div data-aos="zoom-in-up" data-aos-duration="700">
             <iframe
               class="w-[110%] md:w-[450px] md:h-[300px] h-[200px]"
               src="https://www.youtube.com/embed/rwaNF4hkSG8?si=md2dD6cq6YE1pEHb"
@@ -529,7 +540,7 @@
               allowfullscreen
             ></iframe>
           </div>
-          <div>
+          <div data-aos="zoom-in-up" data-aos-duration="700">
             <iframe
               class="w-[110%] md:w-[450px] md:h-[300px] h-[200px]"
               src="https://www.youtube.com/embed/rarJYmB2gPM?si=R3MM599ht3EibwGT"
@@ -548,7 +559,11 @@
     <!-- OVERVIEWS: VISION, MISSION & COMMITMENT  -->
     <!-- ++++++++++++++++++++++++++++++++++++++++++ -->
     <section id="overviews-section">
-      <div class="title-section pt-12 mb-10">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="700"
+        class="title-section pt-12 mb-10"
+      >
         <h3
           class="text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4"
         >
@@ -558,7 +573,7 @@
       </div>
       <div class="container">
         <div class="overviews-cards">
-          <div class="box">
+          <div class="box" data-aos="zoom-in-right" data-aos-duration="700">
             <h3
               class="text-[21px] flex justify-start items-end gap-4 sm:text-3xl font-semibold text-[#444] mb-4"
             >
@@ -578,7 +593,7 @@
               within desired levels of performance.
             </p>
           </div>
-          <div class="box">
+          <div class="box" data-aos="zoom-in-left" data-aos-duration="700">
             <h3
               class="text-[21px] flex justify-start items-end gap-4 sm:text-3xl font-semibold text-[#444] mb-4"
             >
@@ -628,7 +643,7 @@
               </li>
             </ul>
           </div>
-          <div class="box">
+          <div class="box" data-aos="zoom-in-right" data-aos-duration="700">
             <h3
               class="text-[21px] flex justify-start items-end gap-4 sm:text-3xl font-semibold text-[#444] mb-4"
             >
@@ -658,12 +673,48 @@
         <div
           class="brands-content grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-10 justify-center items-center"
         >
-          <img class="w-[100%] h-[100%]" src="./img/101.png" alt="" />
-          <img class="w-[100%] h-[100%]" src="./img/102.png" alt="" />
-          <img class="w-[100%] h-[100%]" src="./img/103.png" alt="" />
-          <img class="w-[100%] h-[100%]" src="./img/104.png" alt="" />
-          <img class="w-[100%] h-[100%]" src="./img/105.png" alt="" />
-          <img class="w-[100%] h-[100%]" src="./img/106.png" alt="" />
+          <img
+            data-aos="fade-up"
+            data-aos-delay="50"
+            class="w-[100%] h-[100%]"
+            src="./img/101.png"
+            alt=""
+          />
+          <img
+            data-aos="fade-up"
+            data-aos-delay="100"
+            class="w-[100%] h-[100%]"
+            src="./img/102.png"
+            alt=""
+          />
+          <img
+            data-aos="fade-up"
+            data-aos-delay="150"
+            class="w-[100%] h-[100%]"
+            src="./img/103.png"
+            alt=""
+          />
+          <img
+            data-aos="fade-up"
+            data-aos-delay="200"
+            class="w-[100%] h-[100%]"
+            src="./img/104.png"
+            alt=""
+          />
+          <img
+            data-aos="fade-up"
+            data-aos-delay="250"
+            class="w-[100%] h-[100%]"
+            src="./img/105.png"
+            alt=""
+          />
+          <img
+            data-aos="fade-up"
+            data-aos-delay="300"
+            class="w-[100%] h-[100%]"
+            src="./img/106.png"
+            alt=""
+          />
         </div>
       </div>
     </section>
@@ -675,7 +726,11 @@
       <div class="container">
         <div class="services-work-contents">
           <div class="services-left">
-            <div class="title-section pt-12 mb-10">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="700"
+              class="title-section pt-12 mb-10"
+            >
               <h3
                 class="text-center text-3xl sm:text-4xl md:text-5xl font-bold mb-4"
               >
@@ -683,7 +738,12 @@
               </h3>
             </div>
             <div class="services-section">
-              <div class="service-content">
+              <div
+                data-aos="zoom-in-up"
+                data-aos-duration="700"
+                data-aos-delay="50"
+                class="service-content"
+              >
                 <div class="service-title">
                   <h3>IT Services</h3>
                   <img
@@ -704,7 +764,12 @@
                   >Read More</a
                 >
               </div>
-              <div class="service-content">
+              <div
+                data-aos="zoom-in-up"
+                data-aos-duration="700"
+                data-aos-delay="100"
+                class="service-content"
+              >
                 <div class="service-title">
                   <h3>Hospital Branding</h3>
                   <img
@@ -724,7 +789,12 @@
                   >Read More</a
                 >
               </div>
-              <div class="service-content">
+              <div
+                data-aos="zoom-in-up"
+                data-aos-duration="700"
+                data-aos-delay="150"
+                class="service-content"
+              >
                 <div class="service-title">
                   <h3>Consulting Services</h3>
                   <img
@@ -744,7 +814,12 @@
                   >Read More</a
                 >
               </div>
-              <div class="service-content">
+              <div
+                data-aos="zoom-in-up"
+                data-aos-duration="700"
+                data-aos-delay="150"
+                class="service-content"
+              >
                 <div class="service-title">
                   <h3>Engineering Services</h3>
                   <img
@@ -763,7 +838,12 @@
                   >Read More</a
                 >
               </div>
-              <div class="service-content">
+              <div
+                data-aos="zoom-in-up"
+                data-aos-duration="700"
+                data-aos-delay="200"
+                class="service-content"
+              >
                 <div class="service-title">
                   <h3>Web Development</h3>
                   <img
@@ -787,7 +867,11 @@
 
           <!-- Work Section -->
           <div class="right-work">
-            <div class="title-section pt-12 mb-10">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="700"
+              class="title-section pt-12 mb-10"
+            >
               <h3
                 class="text-center text-3xl sm:text-4xl md:text-4xl font-bold mb-4"
               >
@@ -795,7 +879,12 @@
               </h3>
             </div>
             <div class="work-section">
-              <div class="work-content">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay="50"
+                class="work-content"
+              >
                 <div class="flex items-center justify-start gap-4">
                   <span>1</span>
                   <h3>Requirement Gathering</h3>
@@ -807,7 +896,12 @@
                   alt=""
                 />
               </div>
-              <div class="work-content">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay="100"
+                class="work-content"
+              >
                 <div class="flex items-center justify-start gap-4">
                   <span>2</span>
                   <h3>Research</h3>
@@ -818,7 +912,12 @@
                   alt=""
                 />
               </div>
-              <div class="work-content">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay="150"
+                class="work-content"
+              >
                 <div class="flex items-center justify-start gap-4">
                   <span>3</span>
                   <h3>Project Scope</h3>
@@ -829,7 +928,12 @@
                   alt=""
                 />
               </div>
-              <div class="work-content">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay="200"
+                class="work-content"
+              >
                 <div class="flex items-center justify-start gap-4">
                   <span>4</span>
                   <h3>Development</h3>
@@ -840,7 +944,12 @@
                   alt=""
                 />
               </div>
-              <div class="work-content">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay="250"
+                class="work-content"
+              >
                 <div class="flex items-center justify-start gap-4">
                   <span>5</span>
                   <h3>Test & Feedback</h3>
@@ -852,7 +961,12 @@
                   alt=""
                 />
               </div>
-              <div class="work-content">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay="300"
+                class="work-content"
+              >
                 <div class="flex items-center justify-start gap-4">
                   <span>6</span>
                   <h3>Go Live</h3>
@@ -1090,5 +1204,10 @@
 
     <!-- Script Source -->
     <script src="main.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
